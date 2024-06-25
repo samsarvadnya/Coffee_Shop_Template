@@ -1,0 +1,1713 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    background-image: url(../images/background/slider_bg.png);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+.head{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 88px;
+}
+.head-content{
+    width: 80%;
+    margin: 0 auto;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo img{
+    height: 44px;
+}
+.menu-bar{
+    padding: 9px;
+    border: 1px solid white;
+}
+.menu-bar img{
+    height: 18px;
+    width: 23px;
+}
+.head-info{
+    /* border: 2px solid white; */
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 60px;
+}
+.head-info p{
+ font-size: 15px;
+ font-family: serif;
+ text-transform: uppercase;
+}
+.head-info h1{
+    text-transform: capitalize;
+    font-size: 36px;
+    font-family: serif;
+    padding-top: 10px;
+}
+.head-info .para{
+    width: 270px;
+    font-size: 18px;
+    text-transform: lowercase;
+    margin-bottom: 30px;
+}
+.head-info .book{
+   
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px;
+    margin: 0 15px 0 0;
+    background-color: #3F271E;
+}
+.head-info br{
+    display:block;
+}
+.head-info .visit{
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    color: rgb(130, 63, 15);
+    text-transform: uppercase;
+    border-radius: 8px;
+    margin: 0 15px 0 0;
+    background-color: white;
+}
+/* header section css end */
+.branding{
+    margin-top: -2px;
+    width: 100%;
+    height: 168px;
+    background-color: #3F271E;
+}
+.branding-content{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px;
+}
+.ipad-branding{
+    display: none;
+}
+.desk-branding{
+    display: none;
+}
+/* branding section css end */
+.about{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 50px;
+}
+.about-content{
+    width: 90%;
+    margin: 0 auto;
+    height: 1100px;
+    
+}
+.about-img img{
+    height: 350px;
+    width: 257px;
+}
+.about-img .coffee{
+    width: 99px;
+    height: 99px;
+    position: relative;
+    bottom: 60px;
+    right: -180px;
+}
+.about-text{
+    padding-left: 13px;
+}
+.about-text h2{
+    font-size: 22px;
+    font-family: serif;
+    font-weight: 100;
+}
+.about-text h2 span{
+  padding: 7px;
+}
+.about-text h3{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: serif;
+}
+.about-text p{
+    padding-top: 10px;
+    font-size: 15px;
+    color: gray;
+}
+.about-text .signature{
+    padding: 10px;
+}
+.about-text button{
+    padding: 20px 20px;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    background-color: #3F271E;
+}
+.about-ipad{ 
+    display: none;
+}
+/* about section css end */
+.feature{
+    height: 100%;
+    background-color: #F7F5F1;
+    padding-bottom: 50px;
+}
+.feature-content{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 90px;
+    
+}
+.feature-content h2{
+    text-align: center;
+    font-family: serif;
+    font-weight: 100;
+}
+.feature-content h2 span{
+    padding: 7px;
+}
+.feature-content h3{
+    text-align: center;
+    font-family: serif;
+    font-size: 40px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.feature-content .para{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+    color: gray;
+    text-align: center;
+    font-family: serif;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.card{
+    height: 332px;
+    width: 257px;
+    margin: 10px auto;
+    background-color: white;
+}
+.card-item{
+    width: 197px;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.card-item img{
+    width: 40px;
+    margin-top: 23px;
+}
+.card-item h4{
+    font-size: 26px;
+    font-family: serif;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.card-item p{
+    font-size: 16px;
+    color: gray;
+    padding-bottom: 30px;
+}
+.card-item a{
+    color: black;
+    font-size: 15px;
+    padding-top: 40px;
+}
+/* feacture section 320 view is end */
+.contact-us{
+    background-color: #3F271E;
+    height: 826px;
+    color: white;
+    margin-top: 150px;
+}
+.contact-form{
+    /* border: 2px solid white; */
+    width: 259px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.contact-form h2{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.contact-form h3{
+    font-size: 40px;
+ 
+}
+.contact-form .first-name{
+    background-color: #261610;
+    padding: 19px;
+    width: 189px;
+    border: none;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    color: white;
+}
+.contact-form button{
+    background-color:white;
+    padding: 19px;
+    width: 226px;
+    border: none;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    color: #261610;
+}
+.contact-us .booking{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-us .booking-two{
+    position: relative;
+    bottom: 40px;
+    left: -77px;
+}
+/* contact us for 320 end */
+.menu{
+    padding-top: 100px;
+    height: 100%;
+}
+.menu-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.menu-content h2{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.menu-content h3{
+    font-size: 40px;
+    font-family: serif;
+}
+.menu-content p{
+    text-align: center;
+    padding: 5px;
+    color: gray;
+    line-height: 25px;
+}
+.menu-card{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.menu-card img{
+    width: 31px;
+    width: 33px;
+}
+.menu-card h5{
+    padding-left: 10px;
+    width: 40%;
+    font-size: 25px;
+    font-family: serif;
+}
+.menu-card p{
+    text-align: start;
+    padding-left: 10px;
+    l
+    width: 43%;
+    font-size: 15px;
+    font-family: serif;
+}
+.menu-card  h6{
+    font-size: 25px;
+    font-family: serif;
+    color: #261610;
+}
+.menu-content button{
+    margin-top: 30px;
+    margin-left: 27%;
+
+    background-color: #261610;
+    padding: 16px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+/* end */
+.shop{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(242, 233, 221);
+}
+.shop-content{
+    width: 80%;
+    margin: 0 auto;
+}
+.shop-content h2{
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: 100;
+    color: #261610;
+}
+.shop-content h2 span img{
+    padding: 5px;
+}
+.shop-content h3{
+    padding-top: 10px;
+    font-family: serif;
+    font-weight: 700;
+text-align: center;
+font-size: 40px;
+}
+.shop-content p{
+    text-align: center;
+    padding: 5px;
+    color: gray;
+    line-height: 25px;
+}
+.shop-content figure{
+    height: 500px;
+}
+.shop-content figure img{
+    width: 100%;
+}
+.shop-content figure figcaption{
+    width: 100%;
+    background-color: white;
+    margin-top: -5px;
+    text-align: start;
+}
+.shop-content figure figcaption h3{
+    font-size: 22px;
+    color: #261610;
+    padding-bottom: 20px;
+}
+.nouse-mobile{
+    display: none;
+}
+
+.shop-content figure figcaption h3 span{
+   text-decoration: line-through;
+   color: gray;
+}
+.nouse-ipad{
+    display: none;
+}
+/* Shop css end gor 320 view */
+.client{
+    width: 100%;
+    height: 800px;
+}
+.client-content{
+    width: 90%;
+    margin: 0 auto;
+    height: 600px;
+}
+.client-content h2{
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: 100;
+    color: #261610;
+}
+.client-content h2 span img{
+    padding: 5px;
+}
+.client-content h3{
+    padding-top: 10px;
+    font-family: serif;
+    font-weight: 500;
+text-align: center;
+font-size: 40px;
+}
+.client-content p{
+    text-align: center;
+    padding: 5px;
+    color: gray;
+    line-height: 25px;
+}
+.review{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    height: 370px;
+    margin-top: 40px;
+    
+}
+.review-content{
+    width: 80%;
+    margin: 0 auto;
+ 
+    height: 350px;
+    padding-top:20px;
+}
+.review-content h5{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: serif;
+}
+.review-content p{ 
+    
+    font-size: 15px;
+    font-weight: 300;
+    font-family: serif;
+}
+.review-content .stars{ 
+    width: 100%;
+}
+/* client css end for 320 view  */
+.blog{
+    width: 100%;
+    height: 2000px;
+    background-color: #f2eeee;
+}
+.blog-content{
+    width: 83%;
+    margin: 0 auto;
+    height: 600px;
+}
+.blog-content h2{
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: 100;
+    color: #261610;
+}
+.blog-content h2 span img{
+    padding: 5px;
+}
+.blog-content h3{
+    padding-top: 25px;
+    font-family: serif;
+    font-weight: 500;
+text-align: center;
+font-size: 40px;
+}
+.blog-content p{
+    text-align: start;
+   padding-top: 15px;
+    color: gray;
+    line-height: 25px;
+}
+.blog-box{
+    height: 490px;
+    border: 1px solid #3F271E;
+    margin-top: 30px;
+}
+.blog-box img{
+    width: 100%;
+}
+.blog-box div{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -18px;
+}
+.blog-box span{
+    font-size: 20px;
+    background-color: #261610;
+    color: white;
+    padding: 7px;
+}
+.blog-box h3{
+font-size: 28px;
+text-align: start;
+}
+.blog-box button{
+    padding: 11px;
+    outline: none;
+   border: none;
+   font-size: 22px;
+   font-weight: 700px;
+   color: #3F271E;
+}
+.useses{
+    display: none;
+}
+/*blog section css end for 320 view  */
+.newletter{
+    width: 100%;
+    border-color: white;
+    height: 1400px;
+}
+.newletter-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.newletter-content h2{
+    text-align: center;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: 100;
+    color: #261610;
+}
+.newletter-content h2 span img{
+    padding: 5px;
+}
+.newletter-content h3{
+    padding-top: 25px;
+    font-family: serif;
+    font-weight: 500;
+text-align: center;
+font-size: 40px;
+}
+.newletter-content p{
+    text-align: center;
+   padding-top: 15px;
+    color: gray;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.newletter-content input{
+    font-size: 16px;
+    padding: 7px;
+    border: none;
+    width: 42%;
+   border-radius: 6px;
+
+    background-color: rgb(247, 245, 239);
+}
+.newletter-content button{
+    padding: 13px;
+    outline: none;
+   border: none;
+   border-radius: 6px;
+   font-size: 13px;
+   font-weight: 700px;
+   color: white;
+   background-color: #3F271E;
+}
+.news-sub{
+    margin: 10px;
+    display: flex;
+}
+.gallery{
+    margin-top: 68px;
+    width: 100%;
+}
+.gallery img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+/* newsletter section end in 320 view */
+.info{
+    width: 100%;
+    background-color: #3F271E;
+    height: 870px;
+}
+.info-content{
+    width: 80%;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.info-content h2 {
+}
+.info-num{
+    color: rgb(178, 166, 166);
+    width: 80%;
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.info-content h2 span img{
+    width: 25px;
+    padding: 7px;
+    background-color: #fff;
+border-radius: 50%;
+}
+.info-content .logo{
+    margin-bottom: 20px;
+}
+.info .links{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.info .links h2{
+    font-family: serif;
+    font-weight: 300;
+}
+.info .links li a{
+    color: rgb(196, 193, 193);
+
+   
+}
+.info .links li {
+    color: rgb(196, 193, 193);
+    margin-top: 20px;
+  
+}
+.info .map{
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.info .map h2{
+    font-family: serif;
+    font-weight: 300;
+}
+.info .map img{
+  width: 100%;
+  height: 198px;
+  padding-top: 30px;
+}
+.map-desk-no{
+    display: block;
+}
+.map-desk{
+    display: none;
+}
+/* Info section end in 320 view */
+.footer{
+    height: 200px;
+    background-color: #37180c;
+    color: white;
+}
+.foot{
+    width: 90%;
+    margin: 0 auto;
+}
+.foot .parag{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 60px;
+}
+.foot p{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}
+.foot p a img{
+    width: 25px;
+    background-color: #ffffff3a;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+/* footer section end for 320 view */
+@media (min-width:768px){
+    .header{
+        height: 927px;
+    }
+    .head{
+        background-color: rgba(0, 0, 0, 0.726); 
+    }
+    .head-info{
+        /* border: 2px solid white; */
+        height: 500px;
+        color: white;
+        padding-top: 170px;
+    }
+    .head-info p{
+     font-size: 22px;
+     
+    }
+    .head-info h1{
+        font-size: 48px;
+    }
+    .head-info .para{
+        width: 270px;
+        font-size: 18px;
+        text-transform: lowercase;
+        margin-bottom: 30px;
+    }
+    .head-info .book{
+        font-size: 14px;
+        padding: 20px 30px;
+    }
+    .head-info br{
+        display:none;
+    }
+    .head-info .visit{
+        font-size: 14px;
+        padding: 20px 30px;
+    }
+    /* header section for 768 view css end */
+   
+    .branding-content{
+        display: flex;
+        justify-content: space-around;
+        padding: 60px;
+    }
+    .ipad-branding{
+        display: block;
+    }
+    /* branding section for 768 css end */
+    .about{
+        height: 1700px;
+    }
+    .about-content{
+        width: 90%;
+        margin: 0 auto;
+        height: 1100px;   
+    }
+    .about-img{
+        height: 1100px;
+    }
+    .about-img img{
+        height: 992px;
+        width: 696px;
+    }
+    .about-img .coffee{
+        width: 284px;
+        height: 284px;
+        position: relative;
+        bottom: 280px;
+        right: -410px;
+    }
+    .about-text{
+        
+        padding-left: 13px;
+    }
+    .about-text h2{
+        font-size: 22px;
+        font-family: serif;
+    }
+    .about-text h2 span{
+      padding: 7px;
+    }
+    .about-text h3{
+        font-size: 70px;
+        font-family: serif;
+    }
+    .about-text p{
+        padding-top: 10px;
+        font-size: 15px;
+        color: gray;
+    }
+    .about-text .signature{
+        padding: 10px;
+    }
+    .about-ipad{
+       padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about-ipad figcaption{
+        font-size: 28px;
+        font-family: serif;
+    }
+    .about-text button{
+        padding: 20px 30px;
+        border: none;
+        font-size: 18px;
+        color: white;
+        border-radius: 7px;
+        background-color: #3F271E;
+    }
+    .about-mob{
+        display: none;
+    }
+    /* about section for 768 view css end */
+    .ipad-card{
+        display: flex;
+    }
+    .card{
+        height: 503px;
+        width: 156px;
+        margin: 10px auto;
+        background-color: white;
+    }
+    .card-item{
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        
+        
+    }
+    .card-item img{
+        width: 40px;
+        margin-top: 23px;
+       
+    }
+    .card-item h4{
+        font-size: 26px;
+        font-family: serif;
+        padding-top: 10px;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .card-item p{
+        font-size: 16px;
+        color: gray;
+        padding-bottom: 30px;
+        width: 80%;
+        margin: 0 auto;
+        line-height: 25px;
+    }
+    .card-item a{
+        color: black;
+        font-size: 15px;
+        padding-top: 40px;
+        margin-left: 13px;
+        font-weight: 800;
+      
+    }
+    /* feature section for 768 view css end */
+    .contact-us{
+        background-color: #3F271E;
+        height: 1186px;
+        color: white;
+        margin-top: 150px;
+    }
+    .contact-form{
+
+        width: 559px;
+    
+    }
+    .contact-form h2{
+        text-align: start;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    .contact-form h3{
+        text-align: start;
+        font-size: 42px;
+        padding-bottom: 10px;
+   
+    }
+    .contact-form .first-name{
+        background-color: #261610;
+        padding: 19px;
+        width: 450px;
+        border: none;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-left: 16px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .contact-form button{
+        background-color:white;
+        padding: 19px;
+        width: 490px;
+        border: none;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-left: 16px;
+        margin-bottom: 20px;
+        color: #261610;
+    }
+    .contact-us .booking{
+        width: 100%;
+      width: 672px;
+      margin-left: -60px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .contact-us .booking-two{
+        position: relative;
+        bottom: 40px;
+        left: -77px;
+    }
+    .menu-card{
+    margin-left: 15px;
+    }    
+
+    .desk-menu{
+        display: flex;  
+    }
+    .menu-card img{
+        width: 47px;
+        width: 45px;
+    }
+    /* css end */
+    .shop{
+        width: 100%;
+        height: 900px;
+        background-color: rgb(242, 233, 221);
+    }
+    .ipad-shop{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .shop-content p{
+        text-align: center;
+        padding: 5px;
+        color: gray;
+        line-height: 25px;
+    }
+    .shop-content figure{
+        padding-top: 30px;
+        height: 500px;
+        margin-right: 13px;
+    }
+    .shop-content figure img{
+        width: 330px;
+        height: 358px;
+    }
+    .shop-content figure figcaption{
+        width: 330px;
+        background-color: white;
+        margin-top: -5px;
+        text-align: start;
+    }
+    .shop-content figure figcaption h3{
+        font-size: 22px;
+        color: #261610;
+        padding-bottom: 20px;
+    }
+    
+    .shop-content figure figcaption h3 span{
+       text-decoration: line-through;
+       color: gray;
+    }
+    /* Shop css end gor 320 view */
+    .nouse-ipad{
+        display: none;
+    }
+    .nouse-mobile{
+        display: block;
+    }
+    .client{
+        width: 100%;
+    }
+    .client-content{
+        width: 90%;
+        margin: 0 auto;
+        height: 600px;
+    }
+    .client-content h2{
+        text-align: center;
+        padding-top: 30px;
+        text-transform: uppercase;
+        font-family: serif;
+        font-weight: 100;
+        color: #261610;
+    }
+    .client-content h2 span img{
+        padding: 5px;
+    }
+    .client-content h3{
+        padding-top: 10px;
+        font-family: serif;
+        font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+    }
+    .client-content p{
+        text-align: center;
+        padding: 5px;
+        color: gray;
+        line-height: 25px;
+    }
+    .review{
+        width: 666px;
+        margin: 0 auto;
+        border: 1px solid gray;
+        height: 270px;
+        margin-top: 40px;
+        
+    }
+    .review-box{
+        display: flex;
+    }
+   
+    .review-content{
+        width: 80%;
+        margin: 0 auto;
+     
+        height: 350px;
+        padding-top:20px;
+    }
+    .review-content h5{
+        text-align: center;
+        font-size: 28px;
+        margin-left: 20px;
+        font-weight: 300;
+        font-family: serif;
+    }
+    .review-content p{ 
+        
+        font-size: 20px;
+        font-weight: 300;
+        font-family: serif;
+    }
+    .review-content .stars{ 
+        padding-top: 20px;
+        width: 191px;
+    }
+    /* client css end for 768 view  */
+    .blog{
+        width: 100%;
+        height: 1500px;
+        background-color: #f2eeee;
+    }
+    .blog-content{
+        width: 83%;
+        margin: 0 auto;
+        height: 600px;
+    }
+    .blog-content h2{
+        text-align: center;
+        padding-top: 30px;
+        text-transform: uppercase;
+        font-family: serif;
+        font-weight: 100;
+        color: #261610;
+    }
+    .blog-content h2 span img{
+        padding: 5px;
+    }
+    .blog-content h3{
+        padding-top: 25px;
+        font-family: serif;
+        font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+    }
+    .blog-content p{
+        text-align: start;
+       padding-top: 15px;
+        color: gray;
+        line-height: 25px;
+    }
+    .blog-box{
+        height: 540px;
+        width: 336px;
+        border: 1px solid #3F271E;
+        margin-top: 30px;
+    }
+    .blog-box img{
+        width: 100%;
+    }
+    .blog-box div{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: -18px;
+    }
+    .blog-box span{
+        font-size: 20px;
+        background-color: #261610;
+        color: white;
+        padding: 7px;
+    }
+    .blog-box h3{
+    font-size: 28px;
+    text-align: start;
+    }
+    .blog-box button{
+        padding: 11px;
+        outline: none;
+       border: none;
+       font-size: 22px;
+       font-weight: 700px;
+       color: #3F271E;
+    }
+    .ipad-blog{
+        display: flex;
+        justify-content: space-between;
+    }
+    .useses{
+        display: none;
+    }
+    /* blog 768 view end  */
+    .newletter{
+        height: 2750px;
+    }
+    .newletter-content input{
+        font-size: 16px;
+        padding: 9px;
+        border: none;
+        width: 75%;
+       border-radius: 6px;
+    color: black;
+        background-color: rgb(247, 245, 239);
+    }
+    .newletter-content button{
+        padding: 13px;
+        outline: none;
+       border: none;
+       border-radius: 6px;
+       font-size: 13px;
+       font-weight: 700px;
+       color: white;
+       background-color: #3F271E;
+    }
+    .news-sub{
+        margin: 10px;
+        display: flex;
+    }
+    /* newslettersection end for 768 view */
+    .info-num{
+        color: rgb(178, 166, 166);
+        width: 35%;
+        display: flex;
+        padding-top: 15px;
+        align-items: center;
+        justify-content: space-between;
+    
+    
+    }
+    .ipad-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+    }
+    .ipad-info .links{
+        padding-top: 40px;
+    }
+    .info .map{
+        color: white;
+        width: 60%;
+        margin: 0 auto;
+        padding-top: 30px;
+        margin-left: 30px
+    }
+    .info .map img{
+        color: white;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .info{
+        height: 750px;
+    }
+    .info-num{
+        width: 60%;
+    }
+    /* info section css end for 768  view */
+    .foot{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer{
+        height: 130px;
+    }
+    /* footer end for 768 view */
+
+}
+/*  */
+@media (min-width:992px){
+    .header{
+        height: 927px;
+    }
+    .head{
+        background-color: rgba(0, 0, 0, 0.726); 
+    }
+  
+    .head-info{
+        /* border: 2px solid white; */
+        height: 500px;
+        color: white;
+        padding-top: 170px;
+    }
+    .head-info p{
+     font-size: 22px;
+     
+    }
+    .head-info h1{
+        font-size: 70px;
+    }
+    .head-info .para{
+        width: 550px;
+        font-size: 18px;
+        text-transform: lowercase;
+        margin-bottom: 30px;
+    }
+    .head-info .book{
+        font-size: 14px;
+        padding: 20px 30px;
+    }
+    .head-info h1 br{
+        display:block;
+    }
+    .head-info .visit{
+        font-size: 14px;
+        padding: 20px 30px;
+    }
+    /* header section for 992 view css end */
+    .desk-branding{
+        display: none;
+    }
+    /* branding section for 992 css end */
+    .about-content{
+        width: 90%;
+        margin: 0 auto;
+        height: 900px;
+
+        display: flex;
+        align-items: center;  
+    }
+    .about{
+        height: 1000px;
+    }
+    .about-img{
+        height: 700px;
+    }
+    .about-img img{
+        height: 650px;
+        width: 456px;
+    }
+    .about-img .coffee{
+        width: 284px;
+        height: 284px;
+        position: relative;
+        bottom: 180px;
+        right: -170px;
+    }
+    .about-text{
+        padding-left: 13px;
+    }
+    .about-text h2{
+        font-size: 22px;
+        font-family: serif;
+    }
+    .about-text h2 span{
+      padding: 7px;
+    }
+    .about-text h3{
+        font-size: 70px;
+        font-family: serif;
+    }
+    .about-text p{
+        padding-top: 10px;
+        font-size: 15px;
+        color: gray;
+    }
+    .about-text .signature{
+        padding: 10px;
+    }
+    .about-ipad{
+       padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about-ipad figcaption{
+        font-size: 28px;
+        font-family: serif;
+    }
+    .about-text button{
+        padding: 20px 30px;
+        border: none;
+        font-size: 18px;
+        color: white;
+        border-radius: 7px;
+        background-color: #3F271E;
+    }
+    .about-mob{
+        display: none;
+    }
+    /* about section for 992 view css end */
+   
+    .card{
+        height: 368px;
+        width: 240px;
+        margin: 5px 5px;
+        background-color: white;
+    }
+    .card-item{
+        width: 90%;
+        margin: 0 auto;
+        height: 100%;  
+    }
+ 
+    .card-item h4{
+        font-size: 26px;
+        font-family: serif;
+        padding-top: 10px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .card-item p{
+        width: 90%;
+        margin: 0 auto;
+        line-height: 23px;
+    }
+    .card-item a{
+        color: black;
+        font-size: 15px;
+        padding-top: 40px;
+        margin-left: 10px;
+        font-weight: 800;
+      
+    }
+    /* feature section for 992 view css end */
+    .contact-us{
+        background-color: #3F271E;
+        height: 676px;
+        color: white;
+        margin-top: 150px;
+    }
+    .contact-form{
+        /* border: 2px solid white; */
+        width: 900px;
+        margin: 0 auto;
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contact-form h2{
+       margin-left: 30px;
+       margin-top: 30px;
+        
+       
+    }
+    .contact-form h3{
+        font-size: 50px;
+       font-family: serif;
+       margin-left: 30px;
+    }
+    .contact-form .first-name{
+          
+
+        width: 300px;
+        border: none;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+       
+    }
+    .contact-form button{
+        background-color:white;
+        padding: 19px;
+        width: 335px;
+        border: none;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        color: #261610;
+    }
+    .contact-us .booking{
+        width: 444px;
+        margin: 0 auto;
+        text-align: center;
+        padding-right: 10px;
+    }
+    .contact-us .booking-two{
+        position: relative;
+        bottom: 10px;
+        left: -77px;
+    }
+    /* conttact us for 992 end */
+    .feature{
+        height: 2600px;
+    }
+    .menu-card img{
+        width: 100px;
+        padding: 6px;
+    }
+    /*  */
+    .shop{
+        width: 100%;
+        height: 750px;
+        background-color: rgb(242, 233, 221);
+    }
+    .ipad-shop{
+        display: flex;
+        margin-left: -50px;
+        
+    }
+    .shop-content p{
+        text-align: center;
+        padding: 5px;
+        color: gray;
+        line-height: 25px;
+    }
+    .shop-content figure{
+        padding-top: 30px;
+        height: 500px;
+       
+    }
+    .shop-content figure img{
+        width: 290px;
+        height: 314px;
+    }
+    .shop-content figure figcaption{
+        width: 290px;
+        background-color: white;
+        margin-top: -5px;
+        text-align: start;
+    }
+    .shop-content figure figcaption h3{
+        font-size: 22px;
+        color: #261610;
+        padding-bottom: 20px;
+    }
+    
+    .shop-content figure figcaption h3 span{
+       text-decoration: line-through;
+       color: gray;
+    }
+    .nouse-ipad{
+        display: block;
+    }
+    /* Shop css end gor 320 view */
+    .client{
+       
+        width: 100%;
+    }
+    
+    .review{
+        width: 100%;
+        margin: 0 auto;
+        border: none;
+        height: 320px;
+        margin-top: 40px;
+    
+        
+    }
+    .deskclient{
+        display: flex;
+    }
+   
+    .review-content{
+        width: 100%;
+        margin: 0 auto;
+     margin-left: 40px;
+        height: 300px;
+        padding:20px;
+        border: 1px solid gray;
+    }
+    .review-content h5{
+        text-align: center;
+        font-size: 28px;
+        margin-left: 20px;
+        font-weight: 300;
+        font-family: serif;
+    }
+    .review-content p{ 
+        text-align: start;
+        
+        font-size: 20px;
+        font-weight: 300;
+        font-family: serif;
+    }
+    .review-content .stars{ 
+        padding-top: 20px;
+        width: 191px;
+    }
+    /* client css end for 992 view  */
+   .nonuse{display: block;}
+    .news-sub{
+        
+        width: 70%;
+        margin: 30px auto;
+    }
+    .news-sub button{
+        width: 200px;
+        font-size: 17px;
+        padding: 17px;
+    }
+    .newletter{
+        height: 3430px;
+    }
+    /* newslettersection end for 768 view */
+    .info{
+        height: 380px;
+    }
+    .map-desk-no{
+        display: none;
+    }
+    .map-desk{
+        display: block;
+    }
+  .map img{
+    width: 900px;
+  }
+  /* newsletter ebd for 992 view */
+ .foot p{
+    padding-top: 20px;
+    padding-bottom: -20px;
+ }
+ .foot{
+    align-items: center;
+    
+ }
+    
+
+}
+
+
+/*  */
+.navigation{
+    display: none;
+ }
+.follow-us{
+    display: none;
+}
+/*  */
+@media (min-width:1200px){
+        .follow-us{
+            display: block;
+            color: white;
+            width: 100%;
+            height: 51px ;
+            margin-top: -10px;
+            background-color: #3F271E;
+        }
+        .follow-us .social-links{
+            width: 88%;
+            margin: 0 auto;
+            height: 51px;
+            padding-top: 5px;
+            
+        }
+        .social-links h2 img{
+            width: 24px;
+            padding: 4px;
+            margin-left: 10px;
+        }
+        .social-links{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .social-links div{
+            display: flex;
+            align-items: center;
+        }
+        .social-links p img{
+            width: 22px;
+            padding: 4px;
+            background-color: #845d4ff3;
+            margin-left: 10px;
+            border: 2px solid rgb(79, 72, 72);
+        }
+    .nav-links{
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+    }
+    .nav-links li a{
+        color: white;
+        margin-left: 14px;
+    }
+    .nav-links .book{
+        font-size: 18px;
+        padding: 20px;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 8px;
+        margin-left: 20px;
+        background-color: #3F271E;
+
+    }
+    .navigation{
+        display: block;
+    }
+    
+    .menu-bar{
+        display: none;
+    }  
+     /* header section for 1200 view css end */
+    .desk-branding{
+        display: block;
+    }
+    /* branding 1200 view in css is ebnd */
+    .about-text{
+        margin-left: 126px;
+    }
+    .about-img .coffee{
+        width: 284px;
+        height: 284px;
+        position: relative;
+        bottom: 280px;
+        right: -270px;
+    }
+    /* about 1200 view in css end */
+
+    .card{
+        height: 400px;
+        width: 485px;
+        margin: 8px 12px;
+        background-color: white;
+    }
+    .card-item{
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;  
+    }
+ 
+    .card-item h4{
+        font-size: 26px;
+        font-family: serif;
+        padding-top: 10px;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .card-item p{
+        width: 90%;
+        margin: 0 auto;
+        line-height: 16px;
+    }
+    .card-item a{
+        color: black;
+        font-size: 15px;
+        padding-top: 30px;
+        margin-left: 10px;
+        font-weight: 800;
+      
+    }
+    .ipad-card{
+        width: 80%;
+        margin: 0 auto;
+    }
+    /* feature section for 992 view css end */
+    .menu-card img{
+        width: 100px;
+        padding: 6px;
+    }
+    .ipad-shop{
+        display: flex;
+        margin-left: 0px;
+        
+    }
+    .nonuse{
+        display: none;
+    }
+    .newletter{
+        height: 1937px;
+    }
+    .useses{
+        display: block;
+    }
+    .blog{
+        height: 900px;
+    }
+    .info{
+        height: 400px;
+    }
+    .gallery-box{
+        display: flex;
+    }
+    .newletter .gallery img{
+        width: 50%;
+    }
+}
+   
